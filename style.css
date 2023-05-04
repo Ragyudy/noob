@@ -1,0 +1,25 @@
+.daddy {
+    width: 50%;
+    color: purple;
+}
+
+.webhead {
+    color:blue;
+}
+.youtube {
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.youtube_text {
+    color: Black;
+    text-decoration: none;
+}
+.youtube_text:hover {
+    color:aquamarine;
+}
+
+.b1 {
+    display: flex;
+}
