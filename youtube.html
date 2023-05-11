@@ -9,16 +9,22 @@
             }
 
             .search_bar {
-                font-size: 20px;
+                display: block;
             }
-
             .video_title {
                 width: 300px;
             }
 
             .video_author, 
             .video_stats {
+                
+            }
+
+            .video_preview {
+                width: 300px;
                 display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
             }
             
         </style>
@@ -26,15 +32,31 @@
     <body>
         <input class="search_bar" type="text" placeholder="Search">
 
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-        <p class="video_title">   
-            Talking Tech and AI with Google CEO Sundar Pichai!
-        </p>
-        <p class="video_author">
-            Marques Brownlee
-        </p>
-        <p class="video_stats">
-            3.4M views &#183; 6 months ago
-        </p>
+        <div class="video_preview">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <p class="video_title">   
+                Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+            <p class="video_author">
+                Marques Brownlee
+            </p>
+            <p class="video_stats">
+                3.4M views &#183; 6 months ago
+            </p>    
+        </div>
+
+        <div class="video_preview">
+            <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+            <p class="video_title">   
+                Try Not To Laugh Challenge #9
+            </p>
+            <p class="video_author">
+                Markiplier
+            </p>
+            <p class="video_stats">
+                19M views &#183; 4 years ago
+            </p>    
+        </div>
+
     </body>
 </html>
